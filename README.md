@@ -70,6 +70,9 @@ The model is deployed on **Hugging Face Spaces** with a Streamlit interface:
 
 You can use the web app to input property and location details in California and get the predicted median house value instantly.
 
+**Model file** (joblib) is uploaded to Dropbox:
+🔗 [Final California Model](https://www.dropbox.com/scl/fi/sz1dt5nzulbuivlve08f6/final_california_model.joblib?rlkey=du4t3qregyszxc6bqxs0j6hsk&e=1&st=h84xj55n&dl=0)
+
 ---
 
 ## 📌 Recommendations for Future Work
