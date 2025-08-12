@@ -4,6 +4,9 @@ This project predicts **median house values** in California using the **1990 Cal
 It implements a full **Machine Learning pipeline** from Exploratory Data Analysis (EDA), outlier handling, data preprocessing, model training, to model evaluation.  
 The final model is a **Stacking Regressor** with **Gradient Boosting** as the meta-model, which achieved the best performance across RMSE, MAE, and MAPE metrics.
 
+
+📄 **View the Jupyter Notebook online (no download needed):**  
+🔗 [Open in nbviewer](https://nbviewer.org/github/rahmaskp/California-Housing-Price-StackingRegression-Model/blob/main/California%20Housing%20Price_Regression%20Model.ipynb)
 ---
 
 ## 📊 Dataset
