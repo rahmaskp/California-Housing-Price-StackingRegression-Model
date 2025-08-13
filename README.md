@@ -36,19 +36,20 @@ The final model is a **Stacking Regressor** with **Gradient Boosting** as the me
 
 3. **Model Training**
    - Baseline models:
-     - Linear Regression
      - Ridge Regression
      - Random Forest Regressor
+     - XGBoost
+     - LightGBM
    - Model evaluation using RMSE, MAE, MAPE
 
 4. **Final Model: Stacking Regressor**
-   - Base learners: Linear Regression, Ridge Regression, Random Forest Regressor
+   - Base learners: Ridge Regression, Random Forest Regressor, XGBoost, LightGBM
    - Meta-model: Gradient Boosting Regressor
 
 5. **Model Evaluation**
-   - RMSE: *61,700*
-   - MAE: *43,447*
-   - MAPE: *26.22%*
+  - RMSE: **60,835.58**  
+  - MAE: **42,942.13**  
+  - MAPE: **26.13%**
 
 6. **Model Saving**
    - Full preprocessing + model pipeline saved using `joblib`
@@ -77,7 +78,7 @@ You can use the web app to input property and location details in California and
 
 ## 📌 Recommendations for Future Work
 
-- Experiment with more diverse base learners (Extra Trees, XGBoost, LightGBM).
+- Experiment with more diverse base learners (Extra Trees, SVM, PLS).
 - Integrate external socio-economic or geographic datasets to enrich features and possibly boost predictive power. 
 - Monitor deployed model for performance drift over time.
 
